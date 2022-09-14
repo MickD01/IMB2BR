@@ -1,6 +1,6 @@
 function SearchActions() {
   return (
-    <div className="d-flex bg-light border rounded p-2 mb-3">
+    <div className="d-flex bg-white border rounded p-2 mb-3">
       <div className="hstack gap-2 w-25 me-auto">
         <div className="input-group">
           <span className="input-group-text">Buscar</span>
