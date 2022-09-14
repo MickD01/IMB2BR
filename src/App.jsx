@@ -6,6 +6,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import "./App.css";
 
 import Navbar from "./components/Navbar";
+import Installations from "./routes/Installations";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <div className="container-fluid">
         <Routes>
           <Route path="/" element={<h1 className="fw-semibold">TABLERO</h1>} />
-          <Route path="/i" element={<h1 className="fw-semibold">INSTALACIONES</h1>} />
+          <Route path="/i" element={<Installations />} />
           <Route path="/m" element={<h1 className="fw-semibold">MANTENIMIENpathS</h1>} />
           <Route path="/u" element={<h1 className="fw-semibold">ULTIMAS MILLAS</h1>} />
           <Route path="/c" element={<h1 className="fw-semibold">CONTRATISTAS</h1>} />
